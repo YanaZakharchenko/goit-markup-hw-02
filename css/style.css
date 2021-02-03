@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;;
+
+}
+
+/* шрифти */
+font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+/* колыр шрифтыв */
+
+color: #2196F3;
+color: #212121;
+color: #757575;
+color: #FFFFFF;
+color: rgba(255, 255, 255, 0.6); футер
+
+ul {
+  list-style: none;
+}
+
+/* ХЕДЕР */
+
+.header {
+    background-color: #FFFFFF;
+}

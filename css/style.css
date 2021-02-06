@@ -163,6 +163,10 @@ a {
   background-color: var(--color-graphite);
 }
 
+.logo-studio {
+  color: var(--color-white)
+}
+
 .info-contacts {
   font-style: normal;
   font-weight: 400;
@@ -203,7 +207,7 @@ a {
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--color-blue);
-  color: (--color-white);
+  color: var(--color-white);
 }
 
 .projects-name {

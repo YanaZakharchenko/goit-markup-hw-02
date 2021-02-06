@@ -37,11 +37,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-.header-logo:hover,
-.header-logo:focus {
-  color: var(--color-blue);
-}
-
 .logo-web {
   color: var(--color-blue);
 }

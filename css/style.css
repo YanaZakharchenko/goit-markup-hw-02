@@ -1,27 +1,230 @@
-body {
-  font-family: 'Roboto', sans-serif;;
-
+:root {
+  --color-white: #ffffff;
+  --color-blue: #2196f3;
+  --color-dark: #212121;
+  --color-gray: #757575;
+  --color-lightgray: rgba(255, 255, 255, 0.6);
+  --color-graphite: #2F303A;
+  --color-original: #F5F4FA;
 }
 
-/* шрифти */
-font-family: 'Oleo Script', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-/* колыр шрифтыв */
-
-color: #2196F3;
-color: #212121;
-color: #757575;
-color: #FFFFFF;
-color: rgba(255, 255, 255, 0.6); футер
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
 
 ul {
-  list-style: none;
+  list-style: none;   
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ХЕДЕР */
 
-.header {
-    background-color: #FFFFFF;
+/* .header {
+  background-color: #ffffff;
+} */
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-dark);
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--color-blue);
+}
+
+.logo-web {
+  color: var(--color-blue);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--color-dark);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-gray);
+} 
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--color-blue);
+}
+
+/* ГЕРОЙ */
+.hero{
+  background: var(--color-graphite);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--color-white);
+}
+
+.hero-btn {
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--color-white);
+  color: var(--color-blue);
+}
+
+/* СЕКЦИЯ 1 */
+.section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-dark);
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--color-gray);
+}
+
+/* СЕКЦИЯ 2 */
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-dark);
+}
+
+/* СЕКЦИЯ 3 */
+/* h2 = .features-title  */
+.section-team {
+  background-color: var(--color-original);
+}
+
+.member-team {
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.position-team {
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+.member-team, 
+.position-team {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ФУТЕР */
+/* лого footer = лого header */
+
+.info {
+  background-color: var(--color-graphite);
+}
+
+.info-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.info-address {
+  color: var(--color-white);
+}
+
+.info-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.info-address:hover,
+.info-address:focus,
+.info-link:hover,
+.info-link:focus { 
+  color: var(--color-blue);
+}
+
+/* ПОРТФОЛИО */
+
+.nav-btn {
+  background-color: var(--color-original);
+  color: var(--color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--color-blue);
+  color: (--color-white);
+}
+
+.projects-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--color-dark);
+}
+
+.project-about {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--color-gray);
 }
